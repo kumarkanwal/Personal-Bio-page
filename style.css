@@ -1,0 +1,32 @@
+.img{
+    border: 15px brown solid;
+    border-radius: 50px;
+}
+
+.info div h1{
+    color: rgb(0, 187, 255);
+    font-size: 4rem;
+    font-weight: 600;
+    
+    
+}
+
+.info div P{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: -15px;
+    margin-left: 3px;
+}
+
+.info p{
+
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+    .info p{
+        font-size: 3.5vw;
+    }
+    
+}
